@@ -27,7 +27,7 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 
 ### React Challenge
 
-1. React Debugging: The Card Draw React application has three (3) errors that need to be fixed. Use the console and error messages to guide you to the solution.
+1. React Debugging: The Card Draw React application has three (3) errors that need to be fixed. Use the console and error messages to guide you to the solution. 
 
 2. React Feature: Add functionality to the `Return Cards and Shuffle Deck` button using the `shuffle` function to reset the Card Draw application to its original state.
 
@@ -38,20 +38,30 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
+    1A. Class vs. ClassName: In HTML, we use the 'class' attribute to define a class for an element. In JSX, we use 'className' instead to define a class for an element because 'class' is reserved for JavaScript. 
+    1B. Inline Styles: In HTML, we typically define styles by using the 'styles' attribute and a string. In JSX, we define styles using a JavaScript object within curly braces. 
+    1C. Self-Closing Tags: In HTML, certain tags can be self-closed with a forward slash '/' at the end. In JSX, the self-closing format is used without the forward slash '/' at the end. 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+    - Yarn is a package manager for JavaScript that was developed by Facebook, Google, Exponent, and Tilde. It is an alternative to Node Package Manager used to manage project dependencies. It is faster and more reliable for package installations by using a deterministic dependsancy resolution algorithm and parallelizing operations. The files that are modified when you run the command 'yarn' in your terminal are: node_modules, yarn.lock, and package.json.
 
 3. What is the difference between state values and props in React?
+    - State is a built-in object that belongs to a component. It represents the internal data of the component that can change over time. State is mutable and can be modified using the setState method. When state changes, React re-renders the component to reflect the updated state. State is local to the component where it is defined. It cannot be accessed or modified from outside the component.
+    
+    - Props (properties) are data passed to a component from its parent component. They are immutable and are used to configure a component with external data. Props are immutable, meaning they cannot be changed within the component. Any change in props should be handled by the parent component.  Props are received by the component and can be accessed using this.props. They are set by the parent component and remain constant throughout the component's lifecycle.
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+    - <div> is a block-level container used for structuring and styling larger sections of a webpage, while <span> is an inline element used for styling smaller portions of text or content within a larger block. 
 
 ### Looking Ahead: Terms for Next Unit
 
 1. Object-oriented programming:
+    - Object Oriented Programming is a programming paradigm that was created to deal with the complexity of large software systems using the concept of "objects" to structure and organize code. OOP promotes modular and reusable code which allows for easier design and implementation. 
 
-2. Ruby:
+2. Ruby: Ruby is an open source, object-oriented programming language created by Yukihiro "Matz" Matsumoto in the early 1990's. Ruby is known for its simplicity and a style that is both easy to read and write. It is a general-purpose, interpreted, dynamically-typeded, server-side scripting language. 
 
 3. Ruby Hashes:
+    - A ruby hash is a dictionary-like container for unique keys and their corresponding values. There are many ways to define the keys and values in a hash. 
 
 ---
 

@@ -1,12 +1,57 @@
+body {
+  background-color: cornflowerblue;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+
 .handStyles {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
 }
+
 .cardStyles {
   border: 1px solid black;
-  width: 70px;
-  height: 95px;
+  background-color: azure;
+  width: 80px;
+  height: 120px;
   margin: 10px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: yellow;
 }
